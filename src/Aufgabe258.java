@@ -15,7 +15,8 @@ public class Aufgabe258 {
         Scanner scan = new Scanner(System.in);
         input = Math.abs(scan.nextLong());
 
-        long rest = Math.abs(input);
+        long rest = input;
+
 
         //Teiler berechnen
         while (true){
