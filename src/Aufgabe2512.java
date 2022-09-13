@@ -3,13 +3,18 @@ import java.util.Scanner;
 public class Aufgabe2512 {
     public static void main(String[] args){
         double input;
+
         double yLenghtD;
         int yLenght;
+
         int x = 0;
         int xLenght;
-        int sLenght;
+
         int s = 0;
+        int sLenght;
+
         int stars = 0;
+
 
         Scanner scan = new Scanner(System.in);
 
