@@ -2,7 +2,7 @@ import java.awt.*;
 
 public class Aufgabe311 {
 
-    // Program creates a map which contains a triangle and ship. If the ship is inside the triangle.. "ship is in danger!" else "ship isn't in danger :)"
+    // Program creates a map which contains a triangle and a ship. If the ship is inside the triangle.. "ship is in danger!" else "ship isn't in danger :)"
     public static void createMap(int mapSize, int shipPositionX, int shipPositionY, int[] triangleA, int[] triangleB, int[] triangleC){
         Polygon triangle = new Polygon();
 
