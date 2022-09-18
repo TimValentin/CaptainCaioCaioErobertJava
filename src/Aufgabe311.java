@@ -2,6 +2,7 @@ import java.awt.*;
 
 public class Aufgabe311 {
 
+    // Program creates a map which contains a triangle and ship. If the ship is inside the triangle.. "ship is in danger!" else "ship isn't in danger :)"
     public static void createMap(int mapSize, int shipPositionX, int shipPositionY, int[] triangleA, int[] triangleB, int[] triangleC){
         Polygon triangle = new Polygon();
 
@@ -25,10 +26,11 @@ public class Aufgabe311 {
             }
             System.out.println();
         }
+
         if (triangle.contains(shipPosition))
-            System.out.printf("%nSchiff befindet sich im Dreieck...");
+            System.out.printf("%nShip is in danger!!!");
         else
-            System.out.printf("%nSchiff ist nicht in Gefahr! :)");
+            System.out.printf("%nShip isn't in danger :)");
     }
 
     public static void main(String[] args) {
