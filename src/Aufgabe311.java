@@ -20,7 +20,7 @@ public class Aufgabe311 {
                 if (shipPosition.equals(map))
                     System.out.print("S");
                 else if (triangle.contains(map))
-                    System.out.print("T");// + else if ... Triangle
+                    System.out.print("T");
                 else
                     System.out.print("*");
             }
