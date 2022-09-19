@@ -34,7 +34,7 @@ public class Aufgabe311 {
     }
 
     public static void main(String[] args) {
-        createMap(50,25,25, new int[]{20, 40},new int[] {20, 1}, new int[] {45, 20});
+        createMap(50,25,25, new int[]{20, 40},new int[] {20, 1}, new int[] {40, 20});
     }
 
 }
