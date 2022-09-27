@@ -1,9 +1,13 @@
 import java.awt.*;
+import java.util.Objects;
+
+import static java.util.Objects.*;
 
 public class Aufgabe311 {
 
     // Program creates a map which contains a triangle and a ship. If the ship is inside the triangle ? "ship is in danger!" : "ship isn't in danger :)"
     public static void createMap(int mapSize, int shipPositionX, int shipPositionY, int[] triangleA, int[] triangleB, int[] triangleC){
+
         Polygon triangle = new Polygon();
 
         triangle.addPoint(triangleA[0],triangleA[1]);
@@ -18,11 +22,11 @@ public class Aufgabe311 {
                 Point map = new Point(x, y);
 
                 if (shipPosition.equals(map))
-                    System.out.print("S");
+                    System.out.print("\uD83D\uDEA2");
                 else if (triangle.contains(map))
-                    System.out.print("T");
+                    System.out.print("\uD83D\uDC19");
                 else
-                    System.out.print("*");
+                    System.out.print("\uD83C\uDF08");
             }
             System.out.println();
         }
